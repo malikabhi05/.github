@@ -1,0 +1,8 @@
+{
+    "name": "Temp Test CI Workflow",
+    "description": "WF to test templates",
+    "iconName": "BLAH",
+    "categories": [
+        "c"
+    ]
+}

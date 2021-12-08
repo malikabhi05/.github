@@ -1,0 +1,13 @@
+name: Temp CI
+
+on:
+  push:
+    branches: master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run a print command
+        run: echo Hello from Temp project
